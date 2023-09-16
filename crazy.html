@@ -3,19 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <title>CRAZY ESPORTS</title>
+    <style>
+        body {
+            background-color: Black;
+            font-family: Helvetica, Arial, sans-serif; /* Use Helvetica or fallback to Arial or sans-serif */
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        h2 {
+            color: white;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td {
+            vertical-align: middle; /* Adjust vertical alignment to middle */
+        }
+
+        a {
+            color: white; /* Set link color to white */
+            text-decoration: none; /* Remove underline */
+            font-family: Helvetica, Arial, sans-serif; /* Use Helvetica or fallback to Arial or sans-serif */
+        }
+
+        .players-heading {
+            text-align: left; /* Adjust text alignment to the left */
+        }
+
+        .player-info {
+            display: flex;
+            align-items: center; /* Center vertically */
+        }
+    </style>
 </head>
-<body style="background-color:Black;">
-  <iframe width="640" height="380" allowfullscreen frameborder="0" src="https://challengermode.com/embed/tournaments/f5f10508-3743-4cba-0baa-08dbab3302be"></iframe>
-  <a href="https://forms.gle/qM9rxMAexxzCWaBW9">Tryout Request HERE</a>
-<h1 style="color: white;">Crazy Esports</h1>
-<h1 style="color: white;">PLAYERS:</h1>
-<table style="border-collapse: collapse;">
-  <tr>
-    <td style="vertical-align: top;">
-      <h2 style="color: white;">WhiteFoxy</h2>
-    </td>
-    <td style="vertical-align: right;">
-      <img src="Drawing-24.sketchpad.jpeg" alt="EST" width="48" height="32" style="display: block;">
-    </td>
-  </tr>
-</table>
+<body>
+    <h1>Crazy Esports</h1>
+    <h2 class="players-heading">PLAYERS:</h2>
+    <table>
+        <tr>
+            <td>
+                <div class="player-info">
+                    <h2>WhiteFoxy</h2>
+                    <img src="Drawing-24.sketchpad.jpeg" alt="EST" width="48" height="32">
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+    <div style="clear: both;"></div>
+    
+    <div style="text-align: center;">
+        <iframe width="640" height="380" allowfullscreen frameborder="0" src="https://challengermode.com/embed/tournaments/f5f10508-3743-4cba-0baa-08dbab3302be"></iframe>
+    </div>
+    
+    <div style="text-align: center;">
+        <a href="https://forms.gle/qM9rxMAexxzCWaBW9">Tryout Request <span style="color: blue;">HERE</span></a>
+    </div>
+</body>
+</html>
